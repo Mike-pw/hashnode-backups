@@ -34,7 +34,7 @@ HTML has a general use container for block and inline content. Block level conte
 These generic containers don't provide the browser any information about the content's purpose, and therefore you should *always use more appropriate semantic elements*, if at all possible.
 
 ### Headings and Paragraphs
-Text content in HTML is often either a **heading **or a **paragraph**. Headings are titles and subtitles that are numbered in order of importance. There are six level's of headings which are shown by the tags; `<h1>` to `<h6>`.
+Text content in HTML is often either a **heading** or a **paragraph**. Headings are titles and subtitles that are numbered in order of importance. There are six level's of headings which are shown by the tags; `<h1>` to `<h6>`.
 
 `<h1>` is the most important heading, and provides the main title or subject of the page. Only one `<h1>` tag should be used per page, and tags should exist in order, i.e. `<h2>` comes after `<h1>` and so on.
 
