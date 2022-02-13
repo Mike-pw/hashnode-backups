@@ -1,4 +1,4 @@
-## Simple Scroll Transition Animation using Chakra UI and React
+## Transition Animation on Scroll with Chakra UI and React
 
 Chakra UI provides [four components](https://chakra-ui.com/docs/components/transitions) to help add transition animations. The components are named, `Fade`, `ScaleFade`, `Slide`, and `SlideFade`.
 
