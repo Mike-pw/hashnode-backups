@@ -2,7 +2,7 @@
 
 Chakra UI provides [four components](https://chakra-ui.com/docs/components/transitions) to help add transition animations. The components are named, `Fade`, `ScaleFade`, `Slide`, and `SlideFade`.
 
-These components can be passed an "in" prop that accepts a boolean which determines whether or not to show the component and trigger the enter/exit state.
+These components can be passed an `in` prop that accepts a boolean which determines whether or not to show the component and trigger the enter/exit state.
 
 ["react-visibility-sensor"](https://www.npmjs.com/package/react-visibility-sensor) is a component for React that makes it easy to assign a boolean to represent whether or not a DOM element is within the viewport.
 
