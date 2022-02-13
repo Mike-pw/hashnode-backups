@@ -9,7 +9,7 @@ When you open up a new `.html` file in  [Visual Studio Code](https://code.visual
 
 This template contains the basic structure that an HTML document should follow. It is a good practice to include all of these tags, and only a single html, head, title, and body tag.
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
