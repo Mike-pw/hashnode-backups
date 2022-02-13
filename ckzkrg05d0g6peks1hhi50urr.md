@@ -1,6 +1,6 @@
 ## Simple Scroll Transition Animation using Chakra UI and React
 
-Chakra UI provides [four components](https://chakra-ui.com/docs/components/transitions) to help add transition animations using framer-motion. The components are named, `Fade`, `ScaleFade`, `Slide`, and `SlideFade`.
+Chakra UI provides [four components](https://chakra-ui.com/docs/components/transitions) to help add transition animations. The components are named, `Fade`, `ScaleFade`, `Slide`, and `SlideFade`.
 
 All of these four components can be passed an "in" prop that accepts a boolean which determines whether or not to show the component and trigger the enter/exit state.
 
