@@ -54,7 +54,7 @@ You can now wrap the element you wish to animate, and the Chakra UI transition c
 ```jsx
 <InView rootMargin="-200px" triggerOnce={true}>
     {({inView, ref}) =>
-        <Fade in={inView} >
+        <Fade in={inView}>
             <YourElement ref={ref} />
         </Fade>
      }
