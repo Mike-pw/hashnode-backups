@@ -4,7 +4,7 @@ Chakra UI provides [four components](https://chakra-ui.com/docs/components/trans
 
 These components can be passed an `in` prop that accepts a boolean which determines whether or not to show the component and trigger the enter/exit state.
 
-["react-visibility-sensor"](https://www.npmjs.com/package/react-visibility-sensor) is a component for React that makes it easy to assign a boolean to represent whether or not a DOM element is within the viewport.
+["react-visibility-sensor"](https://www.npmjs.com/package/react-visibility-sensor) is a package that makes it easy to assign a boolean to represent whether or not a DOM element is within the viewport.
 
 [react-intersection-observer](https://www.npmjs.com/package/react-intersection-observer) provides similar functionality in this use case, and is a newer and actively maintained project with some additional features. Since this package utilizes a [built in browser API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API), it requires no additional dependencies. More on browser compatibility can be found at [caniuse.com](https://caniuse.com/intersectionobserver).
 
