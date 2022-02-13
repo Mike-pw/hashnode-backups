@@ -4,12 +4,11 @@ Chakra UI provides [four components](https://chakra-ui.com/docs/components/trans
 
 These components can be passed an "in" prop that accepts a boolean which determines whether or not to show the component and trigger the enter/exit state.
 
-
 ["React Visibility Sensor"](https://www.npmjs.com/package/react-visibility-sensor) is a sensor component for React that makes it easy to assign a boolean to represent whether or not a component is within the viewport.
 
-The following assumes you have an existing React project, with Chakra UI installed, but follow these links if you need help "[Getting Started with React (CRA)](https://create-react-app.dev/docs/getting-started/)" or "[Getting Started with Chakra UI](https://chakra-ui.com/docs/getting-started)"
+The following assumes you have an existing React project, with Chakra UI setup, but follow these links if you need help "[Getting Started with React (CRA)](https://create-react-app.dev/docs/getting-started/)" or "[Getting Started with Chakra UI](https://chakra-ui.com/docs/getting-started)"
 
- First off install react-visibility-sensor in your React project;
+ First off, install react-visibility-sensor in your React project;
 
 ```
 npm install react-visibility-sensor
