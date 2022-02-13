@@ -33,6 +33,6 @@ You can now wrap the component you wish to animate, and the Chakra UI transition
      }
 </VisibilitySensor>
 ```
-In this example the VisibilitySensor component is passed props for offset and partialVisibility. Check on npm for a [full list](https://www.npmjs.com/package/react-visibility-sensor#props) of all the props you can assign to the sensor
+In this example the VisibilitySensor component is passed props for offset and partialVisibility. Check on npm for a [full list](https://www.npmjs.com/package/react-visibility-sensor#props) of all the props you can assign to the sensor.
 
 
