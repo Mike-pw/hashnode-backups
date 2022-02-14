@@ -10,7 +10,7 @@ These components can be passed an `in` prop that accepts a boolean which determi
 
 The following assumes you have an existing React project, with Chakra UI setup, but follow these links if you need help "[Getting Started with React (CRA)](https://create-react-app.dev/docs/getting-started/)" or "[Getting Started with Chakra UI](https://chakra-ui.com/docs/getting-started)"
 
-## react-visibility-sensor
+### react-visibility-sensor
 
  First off, install react-visibility-sensor in your project;
 
@@ -37,7 +37,7 @@ You can now wrap the element you wish to animate, and the Chakra UI transition c
 ```
 In this example the VisibilitySensor component is passed props for `offset` and `partialVisibility`. Check on npm for a [full list](https://www.npmjs.com/package/react-visibility-sensor#props) of all the options you can assign.
 
-## react-intersection-observer
+### react-intersection-observer
 
 First off, install react-intersection-observer in your project;
 
