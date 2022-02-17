@@ -6,7 +6,7 @@ These components can be passed an `in` prop that accepts a boolean which determi
 
 ["react-visibility-sensor"](https://www.npmjs.com/package/react-visibility-sensor) is a package that makes it easy to assign a boolean to represent whether or not a DOM element is within the viewport.
 
-[react-intersection-observer](https://www.npmjs.com/package/react-intersection-observer) provides similar functionality in this use case, and is a newer and actively maintained project with some additional features. Since this package utilizes a [built in browser API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API), it requires no additional dependencies. More on browser compatibility can be found at [caniuse.com](https://caniuse.com/intersectionobserver).
+[react-intersection-observer](https://www.npmjs.com/package/react-intersection-observer) provides similar functionality in this use case, and is a newer and actively maintained project with some additional features. Since this package utilizes a [built in API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API), it requires no additional dependencies. More on browser compatibility can be found at [caniuse.com](https://caniuse.com/intersectionobserver).
 
 The following assumes you have an existing React project, with Chakra UI setup, but follow these links if you need help "[Getting Started with React (CRA)](https://create-react-app.dev/docs/getting-started/)" or "[Getting Started with Chakra UI](https://chakra-ui.com/docs/getting-started)"
 
