@@ -1,0 +1,19 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Netlify Build
+
+on:
+  # Triggers the workflow on push or pull request on main branch
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    name: Request Netlify Webhook
+    runs-on: ubuntu-latest
+    steps:
+      - name: Curl request
+        run: curl -X POST -d {} https://api.netlify.com/build_hooks/6217d5a42a219f006db50655
+          
