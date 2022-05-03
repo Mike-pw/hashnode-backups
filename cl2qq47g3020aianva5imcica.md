@@ -4,7 +4,7 @@ Recently I was migrating an embedded Shopify app from cookie based authenticatio
 
 On the frontend I had Apollo client setup to use authenticatedFetch to send requests to the backend. I needed a way to use verifyRequest to check the incoming session tokens in the authorization header. 
 
-The following packages were required;
+The following were required;
 
 ```javascript
 const Koa = require('koa');
