@@ -1,6 +1,6 @@
 ## How to replace koa-shopify-graphql-proxy with shopify-api when migrating to cookie-less authentication
 
-Recently I was migrating an embedded Shopify app from cookie based authentication to use [session tokens](https://shopify.dev/apps/auth/oauth/session-tokens). The app was using [koa-shopify-graphql-proxy](https://www.npmjs.com/package/@shopify/koa-shopify-graphql-proxy) to proxy requests from the frontend, to Shopify's GraphQL API. I was looking for a way to use [shopify-api](https://www.npmjs.com/package/@shopify/shopify-api) instead.
+Recently I was migrating an embedded Shopify app from cookie based authentication to use [session tokens](https://shopify.dev/apps/auth/oauth/session-tokens). The app was using [koa-shopify-graphql-proxy](https://www.npmjs.com/package/@shopify/koa-shopify-graphql-proxy) to proxy requests from the frontend, to Shopify's GraphQL API. I wanted to use [shopify-api](https://www.npmjs.com/package/@shopify/shopify-api) instead.
 
 On the frontend I had Apollo client setup to use authenticatedFetch to send requests to the backend. I needed a way to use verifyRequest to check the incoming session tokens in the authorization header. 
 
@@ -8,7 +8,8 @@ The following packages were required;
 
 ```javascript
 const Koa = require('koa');
-import shopifyAuth, {verifyRequest} from '@shopify/koa-shopify-auth';
+const { default: createShopifyAuth } = require('@shopify/koa-shopify-auth');
+const { verifyRequest } = require('@shopify/koa-shopify-auth');
 const Router = require('koa-router');
 const koaBody = require('koa-body');
 const Shopify = require('@shopify/shopify-api').Shopify;
