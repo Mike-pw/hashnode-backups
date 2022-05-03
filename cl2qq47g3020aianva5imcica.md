@@ -1,4 +1,4 @@
-## How to replace koa-shopify-graphql-proxy with shopify-api when migrating to cookie-less authentication
+## Replace koa-shopify-graphql-proxy when Migrating to Cookie-less Auth
 
 Recently I was migrating an embedded Shopify app from cookie based authentication to use [session tokens](https://shopify.dev/apps/auth/oauth/session-tokens). The app was using [koa-shopify-graphql-proxy](https://www.npmjs.com/package/@shopify/koa-shopify-graphql-proxy) to proxy requests from the frontend, to Shopify's GraphQL API. I wanted to use [shopify-api](https://www.npmjs.com/package/@shopify/shopify-api) instead.
 
