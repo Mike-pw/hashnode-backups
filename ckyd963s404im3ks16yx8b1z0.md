@@ -1,4 +1,4 @@
-## HTML Essentials - A Quick Overview of HyperText Markup Language
+## HTML Essentials - A Quick Overview of HTML
 
 **HyperText Markup Language** organizes the structure of content, and along with **CSS** and **JavaScript**, it is one of the main building blocks of the web. HTML deals with **meaning** and **content** rather than styling or functionality, though it plays an important role in both.
 
