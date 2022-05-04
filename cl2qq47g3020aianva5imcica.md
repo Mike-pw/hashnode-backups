@@ -1,6 +1,6 @@
 ## Replace koa-shopify-graphql-proxy When Going Cookieless
 
-Recently I was migrating an embedded Shopify app from cookie based authentication to use [session tokens](https://shopify.dev/apps/auth/oauth/session-tokens). The app was using [koa-shopify-graphql-proxy](https://www.npmjs.com/package/@shopify/koa-shopify-graphql-proxy) to proxy requests from the frontend, to Shopify's GraphQL API. I wanted to use [shopify-api](https://www.npmjs.com/package/@shopify/shopify-api) instead.
+Recently I was migrating an embedded Shopify app from using cookie based authentication to use [session tokens](https://shopify.dev/apps/auth/oauth/session-tokens). The app was using [koa-shopify-graphql-proxy](https://www.npmjs.com/package/@shopify/koa-shopify-graphql-proxy) to proxy requests from the frontend, to Shopify's GraphQL API. I wanted to use [shopify-api](https://www.npmjs.com/package/@shopify/shopify-api) instead.
 
 On the frontend I had Apollo client setup to use authenticatedFetch to send requests to the backend. I needed to use verifyRequest to check the incoming session tokens in the authorization header. 
 
