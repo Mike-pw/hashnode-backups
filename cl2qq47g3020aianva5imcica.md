@@ -23,7 +23,7 @@ Initialized server and router;
     const router = new Router()
 ``` 
 
-You will need to have [implemented OAuth](https://shopify.dev/apps/auth/oauth) with Shopify. Shopify [App Bridge](https://shopify.dev/apps/tools/app-bridge) is used to make authenticated requests from the frontend, with valid session tokens in the authorization header.
+You will need to have [implemented OAuth](https://shopify.dev/apps/auth/oauth) with Shopify. Shopify [App Bridge](https://shopify.dev/apps/tools/app-bridge) is used to make authenticated requests from the frontend, attaching valid session tokens in the authorization header.
 
 For the incoming requests to /graphql;
 
